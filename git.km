@@ -76,6 +76,15 @@
                             "note": "将工作区提交到本地仓库"
                         },
                         "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cczhw0kfnpk0",
+                            "created": 1626939413628,
+                            "text": "git commit --amend",
+                            "note": "* 未push的情况下\n* 修改本次commit的描述信息"
+                        },
+                        "children": []
                     }
                 ]
             },
@@ -149,7 +158,7 @@
                             "id": "cczgp86n5cw0",
                             "created": 1626936060549,
                             "text": "git reset HEAD^",
-                            "note": "版本回退，不更新工作区"
+                            "note": "版本回退，不更新工作区，工作区也是本地修改内容"
                         },
                         "children": []
                     },
@@ -159,6 +168,32 @@
                             "created": 1626936091321,
                             "text": "git reset --hart HEAD^",
                             "note": "* 版本回退\n* 工作区文件也会回到上一个版本\n"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cczgxv7fb5s0",
+                    "created": 1626936737576,
+                    "text": "branch"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cczgy3l697c0",
+                            "created": 1626936755822,
+                            "text": "git checkout -b 'branchB'",
+                            "note": "创建并切换到branchB"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cczgycyovcw0",
+                            "created": 1626936776230,
+                            "text": "topic"
                         },
                         "children": []
                     }
