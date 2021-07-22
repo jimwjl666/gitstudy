@@ -198,6 +198,138 @@
                         "children": []
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "cczi1z62xqw0",
+                    "created": 1626939880768,
+                    "text": "push"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cczi21at2i00",
+                            "created": 1626939885408,
+                            "text": "git remote add origin https://xxx"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cczi3n1jwyg0",
+                            "created": 1626940011102,
+                            "text": "git push -u origin master",
+                            "note": "如果当前分支与多个主机存在追踪关系，-u会默认一个主机，之后可以不加参数使用git push"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cczi4lbuw5s0",
+                            "created": 1626940085735,
+                            "text": "git push"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cczi5l5xr080",
+                    "created": 1626940163741,
+                    "text": "合并"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cczi5rr6i2w0",
+                            "created": 1626940178087,
+                            "text": "git merge branchB",
+                            "note": "在master分支合并 branchB"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cczi5x7vg3k0",
+                            "created": 1626940189980,
+                            "text": "git rebase master",
+                            "note": "在其他分支将master分支内容变基到当前branch分支"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cczicme0uw80",
+                    "created": 1626940714956,
+                    "text": "tag"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cczicwi4flk0",
+                            "created": 1626940736972,
+                            "text": "git tag v1.0"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cczih6ptyzs0",
+                            "created": 1626941072663,
+                            "text": "git tag -l",
+                            "note": "查看标签"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cczihbfyly00",
+                                    "created": 1626941082950,
+                                    "text": "git tag -l \"v1.8.5*\""
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cczihjqk8gg0",
+                            "created": 1626941101005,
+                            "text": "git tag -a v1.2 9fceb01",
+                            "note": "后补标签"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ccziioyy3k00",
+                            "created": 1626941190760,
+                            "text": "git push origin v1.0",
+                            "note": "推送标签到远程"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cczil54uk3k0",
+                            "created": 1626941382674,
+                            "text": "git tag -d v1.0",
+                            "note": "删除本地标签"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cczikuun57s0",
+                            "created": 1626941360289,
+                            "text": "git push origin --delete v1.0",
+                            "note": "删除远程标签"
+                        },
+                        "children": []
+                    }
+                ]
             }
         ]
     },
