@@ -1,0 +1,144 @@
+{
+    "root": {
+        "data": {
+            "id": "cczb31y7x200",
+            "created": 1626920217418,
+            "text": "git"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cczg07xh3fk0",
+                    "created": 1626934100891,
+                    "text": "git init"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "cczg2jvkv2w0",
+                    "created": 1626934283626,
+                    "text": "git add ."
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cczg2qis7eo0",
+                            "created": 1626934298090,
+                            "text": "rm -f xx.js"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cczg2xj3p480",
+                            "created": 1626934313347,
+                            "text": "git checkout xx.js"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cczg3jehzyo0",
+                            "created": 1626934360958,
+                            "text": "git rm --cached xx.js",
+                            "note": "取消 git add"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cczg5i37qrk0",
+                            "created": 1626934514827,
+                            "text": ".gitignore",
+                            "note": "在git add 之前创建"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cczg4ixlm340",
+                    "created": 1626934438300,
+                    "text": "git commit",
+                    "layout_right_offset": {
+                        "x": -1,
+                        "y": -19
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cczg8a538tc0",
+                            "created": 1626934732618,
+                            "text": "git commit -m 'add testA.js'",
+                            "note": "将工作区提交到本地仓库"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cczg4s74d940",
+                    "created": 1626934458467,
+                    "text": "git stash",
+                    "layout_right_offset": {
+                        "x": 6,
+                        "y": 31
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cczg9qqi8680",
+                            "created": 1626934847106,
+                            "text": "git stash",
+                            "note": "不提交，保存临时工作成果"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cczgfaah8ow0",
+                                    "created": 1626935281493,
+                                    "text": "git stash save 'msg'",
+                                    "note": "保存当前代码并添加保存信息"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cczgfhqyyfk0",
+                                    "created": 1626935297728,
+                                    "text": "git stash show"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cczgbyl1ebk0",
+                            "created": 1626935020918,
+                            "text": "git stash pop",
+                            "note": "从栈中弹出工作现场"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cczges5jr0o0",
+                            "created": 1626935242013,
+                            "text": "git stash list"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-purple",
+    "version": "1.4.43"
+}
