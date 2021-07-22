@@ -1,3 +1,3 @@
 function a(){
-  console.log('git statsh 1')
+  console.log('git stash 2')
 }
