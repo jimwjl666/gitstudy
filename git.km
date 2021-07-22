@@ -111,7 +111,8 @@
                                 "data": {
                                     "id": "cczgfhqyyfk0",
                                     "created": 1626935297728,
-                                    "text": "git stash show"
+                                    "text": "git stash show",
+                                    "note": "显示做了哪些改动"
                                 },
                                 "children": []
                             }
@@ -131,6 +132,33 @@
                             "id": "cczges5jr0o0",
                             "created": 1626935242013,
                             "text": "git stash list"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cczgozu136o0",
+                    "created": 1626936042373,
+                    "text": "git reset"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cczgp86n5cw0",
+                            "created": 1626936060549,
+                            "text": "git reset HEAD^",
+                            "note": "版本回退，不更新工作区"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cczgpmbjysg0",
+                            "created": 1626936091321,
+                            "text": "git reset --hart HEAD^",
+                            "note": "* 版本回退\n* 工作区文件也会回到上一个版本\n"
                         },
                         "children": []
                     }
