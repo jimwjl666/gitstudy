@@ -1,5 +1,5 @@
 function a(){
-  console.log('git stash 5')
+  console.log('git stash 4')
 }
 function main(){
   console.log('main')
