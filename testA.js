@@ -8,5 +8,5 @@ function a2() {
   console.log('a2')
 }
 function C() {
-  console.log('branchC')
+  console.log('branchD')
 }
