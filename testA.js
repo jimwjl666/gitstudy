@@ -5,10 +5,8 @@ function main() {
   console.log('main')
 }
 function a2() {
-  console.log('a2')
+  console.log('我来自分支branchA')
 }
 function C() {
   console.log('branchC')
-}function C() {
-  console.log('DEV')
 }
