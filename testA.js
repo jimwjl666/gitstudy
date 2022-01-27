@@ -7,3 +7,6 @@ function main() {
 function a2() {
   console.log('我来自分支dev')
 }
+function C() {
+  console.log('DEV')
+}
